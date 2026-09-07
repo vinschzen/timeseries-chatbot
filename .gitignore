@@ -1,0 +1,50 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# --- Environment / secrets ---
+# API keys (GEMINI_API_KEY etc.) should never be committed
+.env
+.env.*
+*.env
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Testing / eval ---
+.pytest_cache/
+eval/results.json
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Generated data (uncomment if you don't want the sample dataset tracked) ---
+# data/sales.csv
+
+node_modules/
+package-lock.json
+package.json
+skills-lock.json
