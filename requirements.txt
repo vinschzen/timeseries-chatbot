@@ -4,3 +4,4 @@ numpy
 statsmodels
 anthropic
 google-genai
+python-dotenv
